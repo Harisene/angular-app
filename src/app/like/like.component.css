@@ -1,0 +1,13 @@
+span {
+  font-size: 30px;
+}
+
+.bi {
+  margin-right: 5px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.pink {
+  color: deeppink;
+}

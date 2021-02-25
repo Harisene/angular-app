@@ -1,0 +1,12 @@
+.card {
+}
+
+.bi {
+  cursor: pointer;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}

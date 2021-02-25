@@ -1,0 +1,16 @@
+<div class="card">
+  <div class="title-container" [class.card-header]="showMore">
+    <h4>{{ title }}</h4>
+    <span
+      (click)="handleShowMore()"
+      class="bi"
+      [ngClass]="{
+        'bi-caret-down-fill': !showMore,
+        'bi-caret-up-fill': showMore
+      }"
+    ></span>
+  </div>
+  <div class="card-body" *ngIf="showMore">
+    <ng-content> </ng-content>
+  </div>
+</div>
